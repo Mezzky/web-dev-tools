@@ -1,0 +1,43 @@
+1. Free Picture
+https://unsplash.com/
+https://www.pexels.com/
+https://pixabay.com/
+
+2. Illustrations
+https://undraw.co/illustrations
+https://usesmash.com/
+https://www.freepik.com/
+
+3. Fonts and Icon
+https://fonts.google.com/
+https://www.flaticon.com/
+https://fontawesome.com/
+
+4. Design and Mockup
+https://www.figma.com/
+https://wireframe.cc/
+https://mockuphone.com/
+
+5. Colors Generator
+https://coolors.co/
+https://colorhunt.co/
+https://color.adobe.com/create/color-wheel
+
+6. Image Utilities
+https://squoosh.app/
+https://www.remove.bg/
+
+7. Coding Snippets
+https://codepen.io/
+https://replit.com/
+https://pastebin.com/
+
+8. Online Documentation
+https://devdocs.io/
+https://devhints.io/
+https://caniuse.com/
+
+9. Web Design Inspiration
+https://dribbble.com/
+https://www.awwwards.com/
+https://www.siteinspire.com/
