@@ -42,22 +42,22 @@ body:after{
     clip-path: circle(20% at 10% 10%);
 } */
 .header{
+    text-align: center;
     color: #fff;
-    padding: 20px 15px;
+    padding: 25px 50px;
     z-index: 1;
     position: relative;
-    max-width: 400px;
     margin: 30px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, .5);
     border-radius: 15px;
-    background: linear-gradient(#e481d7, #9b0e96);
+    background: rgba(255, 255, 255, .1);
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     border-top: 1px solid rgba(255, 255, 255, .5);
     border-left: 1px solid rgba(255, 255, 255, .5);
-    clip-path: blur(5px);
+    backdrop-filter: blur(5px);
 }
 .container{
     /* background-color: red; */
@@ -95,12 +95,13 @@ body:after{
     right: 0;
     top: 50px;
     text-align: center;
+    transform: translateY(0);
     transition: .5s ease-out;
 }
 .container .card .konten{
     padding: 20px;
     text-align: center;
-    transform: translateY(100px);
+    transform: translateY(320px);
     opacity: 0;
     transition: .5s ease-out;
 }
@@ -111,6 +112,9 @@ body:after{
 .container .card:hover img{
     transform: translateY(-200px);
     opacity: 0;
+}
+.container .card .konten h3{
+    cursor: default;
 }
 /* .container .card .konten h2{
     position: absolute;
