@@ -5,11 +5,18 @@ ol, ul {
 } 
 
 /* Akhir Css Reset */
+/* Font */
 
+@font-face {
+    font-family: 'JosefinSans';
+    src: url(font/JosefinSans-Regular.ttf);
+}
+
+/* Akhir font */
 /* Main Style */
 
 *{
-    font-family: cursive;
+    font-family: 'JosefinSans';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -225,8 +232,8 @@ body:after{
 .fa-heart{
     color: rgb(194, 5, 78);
 }
-.fa-brain{
-    color: pink;
+.fa-fire{
+    color: orange;
 }
 /* Akhir Main Style */
 
