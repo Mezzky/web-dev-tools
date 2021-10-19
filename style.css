@@ -235,6 +235,30 @@ body:after{
 .fa-fire{
     color: orange;
 }
+.fa-facebook{
+    transition: .3s;
+}
+.footer .medsos li a:hover .fa-facebook{
+    color: #294688;
+}
+.fa-youtube{
+    transition: .3s;
+}
+.footer .medsos li a:hover .fa-youtube{
+    color: #ff3d3d;
+}
+.fa-github{
+    transition: .3s;
+}
+.footer .medsos li a:hover .fa-github{
+    color: #313131;
+}
+.fa-instagram{
+    transition: .3s;
+}
+.footer .medsos li a:hover .fa-instagram{
+    color: #D22D85;
+}
 /* Akhir Main Style */
 
 /* Animasi */
