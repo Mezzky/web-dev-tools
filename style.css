@@ -28,26 +28,6 @@ body{
     flex-direction: column;
     background: #2d2d6d;
 }
-/* body::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgb(51, 255, 0),rgb(0, 60, 255));
-    clip-path: circle(30% at right 40%);
-}
-body:after{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(#2195f3,#e91e1e);
-    clip-path: circle(20% at 10% 10%);
-} */
 .header{
     text-align: center;
     color: #fff;
@@ -67,7 +47,6 @@ body:after{
     backdrop-filter: blur(5px);
 }
 .container{
-    /* background-color: red; */
     position: relative;
     display: flex;
     justify-content: center;
@@ -236,7 +215,9 @@ body:after{
 .fa-fire{
     color: orange;
 }
-.fa-facebook{
+
+/* HOVER SOSMED */
+/* .fa-facebook{
     transition: .3s;
 }
 .footer .medsos li a:hover .fa-facebook{
@@ -259,7 +240,9 @@ body:after{
 }
 .footer .medsos li a:hover .fa-instagram{
     color: #D22D85;
-}
+} */
+/* AKHIR HOVER SOSMED */
+
 /* Akhir Main Style */
 
 /* Animasi */
@@ -305,35 +288,35 @@ body:after{
 
 .shape1{
     /* z-index: 5; */
-    width: 600px;
-    height: 600px;
+    width: 700px;
+    height: 700px;
     position: absolute;
     top: -210px;
-    left: -200px;
+    left: -270px;
     border-radius: 50%;
-    background: linear-gradient(#008cff, #21f3c6);
+    background: linear-gradient(#4361ee,#4cc9f0);
     animation: muter 4s linear infinite;
 }
 .shape2{
     /* z-index: 5; */
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     position: absolute;
     top: 420px;
-    right: -150px;
+    right: -240px;
     border-radius: 50%;
-    background: linear-gradient(#52f321,#1ee994);
+    background: linear-gradient(#4361ee,#4cc9f0);
     animation: muter 4s linear infinite;
 }
 .shape3{
     /* z-index: 5; */
-    width: 450px;
-    height: 450px;
+    width: 550px;
+    height: 550px;
     position: absolute;
     top: 900px;
-    left: -150px;
+    left: -195px;
     border-radius: 50%;
-    background: linear-gradient(#D14081,#EF798A);
+    background: linear-gradient(#4361ee,#4cc9f0);
     animation: muter 4s linear infinite;
 }
 
@@ -343,55 +326,62 @@ body:after{
 
 @media only screen and (max-width: 800px){
     .shape1{
-        width: 500px;
-        height: 500px;
+        width: 550px;
+        height: 550px;
+        left: -200px;
     }
     .shape2{
-        width: 400px;
-        height: 400px;
+        width: 450px;
+        height: 450px;
+        right: -200px;
+    }
+    .shape3{
+        width: 450px;
+        height: 450px;
     }
     .shape4{
         /* z-index: 5; */
         width: 500px;
         height: 500px;
         position: absolute;
-        top: 1500px;
+        top: 1400px;
         right: -250px;
         border-radius: 50%;
-        background: linear-gradient(#7180B9,#DFF3E4);
+        background: linear-gradient(#4361ee,#4cc9f0);
         animation: muter 4s linear infinite;
     }
     .shape5{
         /* z-index: 5; */
-        width: 400px;
-        height: 400px;
+        width: 450px;
+        height: 450px;
         position: absolute;
-        top: 2000px;
-        left: -250px;
+        top: 1800px;
+        left: -200px;
         border-radius: 50%;
-        background: linear-gradient(#F2BAC9,#F2E2BA);
+        background: linear-gradient(#4361ee,#4cc9f0);
         animation: muter 4s linear infinite;
     }
     .shape6{
         /* z-index: 5; */
-        width: 400px;
-        height: 400px;
+        opacity: 0;
+        width: 600px;
+        height: 600px;
         position: absolute;
-        top: 2500px;
-        right: -150px;
+        top: 2300px;
+        right: -250px;
         border-radius: 50%;
-        background: linear-gradient(#291528,#9E829C);
+        background: linear-gradient(#4361ee,#4cc9f0);
         animation: muter 6s linear infinite;
     }
     .shape7{
         /* z-index: 5; */
-        width: 400px;
-        height: 400px;
+        width: 500px;
+        height: 500px;
         position: absolute;
         top: 3000px;
-        left: -250px;
+        left: -180px;
         border-radius: 50%;
-        background: linear-gradient(#B388EB,#F7AEF8);
+        background: linear-gradient(#4361ee,#4cc9f0);
         animation: muter 4s linear infinite;
     }
     .shape8{
@@ -400,11 +390,30 @@ body:after{
         height: 500px;
         position: absolute;
         top: 3600px;
-        right: -250px;
+        right: -200px;
         border-radius: 50%;
-        background: linear-gradient(#DDFC74,#D3F9B5);
+        background: linear-gradient(#4361ee,#4cc9f0);
         animation: muter 4s linear infinite;
     }
 }
 
+@media only screen and (max-width: 680px){
+    .shape6{
+        opacity: 1;
+    }
+}
+
+/* @media only screen and (max-width: 768px){
+    .shape3{
+        height: 600px;
+        width: 600px;
+    }
+    .shape3{
+        height: 500px;
+        width: 500px;
+    }
+    .shape5{
+        left: -100px;
+    }
+} */
 /* Akhir Media Breakpoints */
