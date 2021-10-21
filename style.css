@@ -71,6 +71,39 @@ body{
     border-left: 1px solid rgba(255, 255, 255, .5);
     backdrop-filter: blur(5px);
 }
+.container .card .gambar{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    transform: translateY(0);
+    transition: .5s ease-out;
+}
+.container .card .gambar h2{
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #979595;
+    /* background-color: #4c6bf7; */
+    margin-top: 210px;
+    cursor: default;
+    font-size: 1.2em;
+    color: white;
+    z-index: 1;
+    transform: translateY(0);
+    transition: .5s ease-out;
+}
+.container .card:hover h2{
+    transform: translateY(-200px);
+    opacity: 0;
+}
 .container .card .gambar img{
     width: 200px;
     height: 250px;
@@ -79,7 +112,7 @@ body{
     margin-right: auto;
     left: 0;
     right: 0;
-    top: 50px;
+    top: 10px;
     text-align: center;
     transform: translateY(0);
     transition: .5s ease-out;
@@ -101,25 +134,10 @@ body{
 }
 .container .card .konten h3{
     cursor: default;
-}
-/* .container .card .konten h2{
-    position: absolute;
-    top: -5px;
-    right: 20px;
-    font-size: 4em;
-    color: rgba(45, 120, 206, 0.349);
-    pointer-events: none;
-} */
-.container .card .konten h3{
     margin-bottom: 25px;
     font-size: 1.6em;
     color: white;
     z-index: 1;
-}
-.container .card .konten p{
-    font-size: 1em;
-    color: white;
-    font-weight: 300;
 }
 .container .card .konten a{
     position: relative;
