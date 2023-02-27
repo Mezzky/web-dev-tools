@@ -90,6 +90,7 @@ body{
     transition: .5s ease-out;
 }
 .container .card .gambar h2{
+    text-align: center;
     border-radius: 10px;
     padding: 10px;
     border: 2px solid #979595;
