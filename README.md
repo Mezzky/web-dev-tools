@@ -1,3 +1,3 @@
-# Web D e v e l oper Tools
+# Web D e v e loper Tools
 Website yang menyediakan tools dan resource untuk Web Developer/Programmer <br>
 Link Preview : https://mezzky.github.io/web-dev-tools/
